@@ -1,18 +1,19 @@
 /* Header */
 #blue-background {
     background-color: #4ea0ff;
-    height: 150px;
+    height: 170px;
 }
 
 #logo {
     height: 70px;
-    margin-top: 70px;
+    margin-top: 80px;
     margin-left: 10px;
 }
 
 #pattern {
     background: url(../img/pattern.png) repeat-x;
-    height: 150px;
+    background-position: top left;
+    height: 170px;
 }
 
 /* Titles */
