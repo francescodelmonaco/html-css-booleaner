@@ -1,0 +1,77 @@
+/* Header */
+#blue-background {
+    background-color: #4ea0ff;
+    height: 150px;
+}
+
+#logo {
+    height: 70px;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+#pattern {
+    background: url(../img/pattern.png) repeat-x;
+    background-size: 50%;
+}
+
+/* Titles */
+.text-color-grey {
+    color: grey;
+}
+
+.text-color-cyan {
+    color: #32b0e7;
+}
+
+.text-10px {
+    font-size: 10px;
+}
+
+/* Tabella */
+.table-head {
+    background-color: #20a9e5;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.table-row-lightblue {
+    background-color: #B1E5F2;
+}
+
+.th-dimension-25 {
+    width: 25%;
+}
+
+.th-dimension-50 {
+    width: 50%;
+}
+
+#no-borders {
+    border-collapse: collapse;
+}
+
+/* Piè di pagina */
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.footer-img {
+    width: 270px;
+    height: 200px;
+    object-fit: none;
+    object-position: 0% 0%;
+}
+
+.top-left {
+    position: absolute;
+    font-size: 23px;
+    top: 16px;
+    left: 16px;
+}
+
+.centered-content {
+    margin: 0 auto;
+}
