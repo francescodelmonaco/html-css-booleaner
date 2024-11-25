@@ -5,8 +5,14 @@
 }
 
 #logo {
+    height: 70px;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+#pattern {
     background: url(../img/pattern.png) repeat-x;
-    background-size: 150px 100;
+    background-size: 50%;
 }
 
 /* Titles */
