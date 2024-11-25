@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- Banner -->
-    <header class="header-background">
+    <header id="blue-background">
         <img id="logo" src="./img/logo.svg" alt="Logo The Booleaner">
     </header>
 
@@ -25,7 +25,7 @@
                 
                 <br>
 
-                il 10/10/2020
+                <div class="text-10px">il 10/10/2020</div>
             </div>
         </div>
 
@@ -34,8 +34,8 @@
         <img src="./img/tim-1.jpg" alt="Foto di Tim Berners-Lee ad una conferenza">
         <img src="./img/tim-2.jpg" alt="Foto frontale di Tim Berners-Lee">
 
-        <div>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</div>
-        <div>2nt Photo: Wikimedia, by Paul Clarke</div>
+        <div class="text-10px">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</div>
+        <div class="text-10px">2nt Photo: Wikimedia, by Paul Clarke</div>
 
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud <mark>exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</mark>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 
@@ -79,13 +79,19 @@
 
     <!-- Piè di pagina -->
     <footer>
-        <div>Potrebbero interessarti</div>
+        <h3 class="text-color-grey"><strong>Potrebbero interessarti</strong></h3>
 
-        <img src="./img/monitor.jpg" alt="Foto di una postazione pc">
+        <div class="container">
+            <img class="footer-img" src="./img/monitor.jpg" alt="Foto di una postazione pc">
+            <div class="top-left"><strong>Lorem ipsum dolor</strong></div>
+        </div>
 
         <br>
         
-        <img src="./img/graph.jpg" alt="Foto di un grafico">
+        <div class="container">
+            <img class="footer-img" src="./img/graph.jpg" alt="Foto di un grafico">
+            <div class="top-left"><strong>Lorem ipsum dolor</strong></div>
+        </div>
     </footer>
 </body>
 </html>
