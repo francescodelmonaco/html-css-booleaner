@@ -15,3 +15,26 @@
 .text-color-cyan {
     color: #32b0e7;
 }
+
+/* Tabella */
+.table-head {
+    background-color: #20a9e5;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.table-row-lightblue {
+    background-color: #B1E5F2;
+}
+
+.th-dimension-25 {
+    width: 25%;
+}
+
+.th-dimension-50 {
+    width: 50%;
+}
+
+#no-borders {
+    border-collapse: collapse;
+}
