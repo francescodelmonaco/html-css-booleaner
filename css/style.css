@@ -1,0 +1,17 @@
+#logo {
+    width: 20%;
+}
+
+.header-background {
+    background-color: #4ea0ff;
+    background-image: url("pattern.png");
+    background-repeat: repeat-x;
+}
+
+.text-color-grey {
+    color: grey;
+}
+
+.text-color-cyan {
+    color: #32b0e7;
+}
